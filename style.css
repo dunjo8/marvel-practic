@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100vw;
+    height: 50px;
+    background-color: #e5e5e5;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+h1{
+    padding: 0;
+    margin-top: 9px;
+    color: #d62d20;
+}
+main{
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+figure{
+    height: 500px;
+    width: 50%;
+    margin: 50px;
+    padding: 0;
+}
+aside{
+    height: 500px;
+    width: 35%;
+    margin: 50px;
+}
+aside h2{
+    font-family: 'Open Sans';
+    color: darkslategrey;
+}
+aside hr{
+    height: 3px;
+    background-color: #d62d20;
+    color: #d62d20;
+    border: 0px none;
+}
+aside p{
+    color: darkslategrey;
+    margin-top: 10px;
+    font-family: 'Inconsolata', monospace;
+}
+.small-pictyres{
+display: flex;
+justify-content: space-around;
+margin: 45px 0 17px 0;
+}
+.big-pictyre{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.small-pictyres img{
+    width: 20%;
+    border: 1px solid #ddd;
+    padding: 3px;
+}
+.big-pictyre img{
+    width: 95%;
+    border: 1px solid #ddd;
+    padding: 3px;
+}
+.small-pictyres img:hover{
+    width: 20%;
+    border: 1px solid darkslategrey;
+    padding: 3px;
+}
